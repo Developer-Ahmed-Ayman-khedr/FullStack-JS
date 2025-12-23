@@ -1,0 +1,230 @@
+/* start ruels  */
+@font-face {
+    font-family: "Sen";
+    src: url("../fonts/Sen-Regular.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hide the default date picker icon in Chrome, Safari, and Edge */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color: red;
+}
+
+
+input[type="date"] {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "Sen", sans-serif;
+    background-color: #FAF8ED;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 100px;
+    margin:auto;
+}
+
+section {
+    padding: 70px 0;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+/* end ruels  */
+
+/* start nav  */
+
+
+
+nav .container .logo img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+
+nav .container {
+    display: flex;
+    align-items: center;
+}
+nav .container .list ul {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav .container .list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav .container .list ul li a {
+    padding: 40px 0;
+    display: inline-block;
+}
+
+nav .container .list .button {
+    border: 2px solid #F66F4D;
+    color: #F66F4D;
+    padding: 10px 35px;
+    border-radius: 50px;
+    display: inline-block;
+}
+nav .container .list .button i {
+    margin-left: 10px;
+}
+
+/* end nav  */
+
+/* start header  */
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .container .content{
+    width: 45%;
+}
+
+.header .container .content h1{
+    font-size: 84px;
+}
+
+.header .container .content > p {
+        font-size: 18px;
+    margin-top: 20px;
+}
+
+.header .container .img{
+    width: 45%;
+}
+
+.header .container .content .search{
+    display: flex;
+    margin-top: 30px;
+    background-color: #FDFEFF;
+    box-shadow: 0 28px 56px -6px #F66F4D0D;
+    border-radius: 50px;
+    padding: 20px;
+    align-items: center;
+}
+
+.header .container .content  .search> div {
+    width: 147px;
+    padding: 0 20px;
+    box-sizing: content-box;
+    border-left: 2px solid #EAEAEB;
+}
+
+.header .container .content .search .input p{
+    font-size: 12px;
+}
+
+.header .container .content .search .input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header .container .content .search .input input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.header .container .content .search .input i {
+    color: #F66F4D;
+    font-size: 16px;
+}
+
+
+.header .container .content .search button {
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #F66F4D;
+    border: none;
+    color: white;
+}
+
+/* end header  */
+
+/* start categories  */
+
+.categories .container .head{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.categories .container .head .title h2 {
+    margin-bottom: 20px;
+}
+.categories .container .head .title {
+    width: 370px;
+}
+.categories .container .head .buttons button {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+
+.categories .container .boxContainer .box {
+    width: 170px;
+    text-align: center;
+}
+
+
+.categories .container .boxContainer .box .img {
+    border-radius: 85px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.categories .container .boxContainer .box .img img{
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.categories .container .boxContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+/* end categories  */

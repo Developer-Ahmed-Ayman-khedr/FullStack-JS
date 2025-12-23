@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Assignment 5</title>
+        <meta name="auther" content="Eng. Ahmed Khedr">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form action="#">
+            <h1>Travel reservation form</h1>
+            <h2>* denotes mandotory</h2>
+            <br>
+            <label for="fullName">Full name*:</label>
+            <br>
+            <input type="text" placeholder="FirstName LastName" name="fullName" id="fullName">
+            <br>
+            <label for="emailAddress">Email address*:</label>
+            <br>
+            <input type="text" placeholder="EMAIL_ADDRESS" name="emailAddress" id="emailAddress">
+            <br>
+            <label for="package">Select Tour Package* :</label>
+            <br>
+            <select name="package" id="package">
+                <option value="tier1">Tier1</option>
+                <option value="tier2">Tier2</option>
+                <option value="tier3">Tier3</option>
+                <option value="tier4">Tier4</option>
+                <option value="tier5">Tier5</option>
+            </select>
+            <br>
+            <label for="arrivalDate">Arrival date*:</label>
+            <br>
+            <input type="date" name="arrivalDate" id="arrivalDate">
+            <br>
+            <label for="numOfPersons">Number of persons*:</label>
+            <br>
+            <input type="number" name="numOfPersons" id="numOfPersons">
+            <br>
+            <label for="wants">What would you want to avail?*</label>
+            <br>
+            <label for="boarding">Boarding</label>
+            <input type="checkbox" name="wants" id="boarding" value="boarding">
+            <br>
+            <label for="footing">Footing</label>
+            <input type="checkbox" name="wants" id="footing" value="footing">
+            <br>
+            <label for="sightSeeing">Sight seeing</label>
+            <input type="checkbox" name="wants" id="sightSeeing" value="sightSeeing">
+            <br>
+            <label for="disCoupon">Discount Coupon code:</label>
+            <br>
+            <input type="text" name="disCoipon" id="disCoupon">
+            <br>
+            <label for="terms">Terms and conditions*</label>
+            <br>
+            <input type="radio" name="terms" id="agree" value="agree">
+            <label for="agree">I agree</label>
+            <br>
+            <input type="radio" name="terms" id="disagree" value="disagree">
+            <label for="disagree">I disagree</label>
+            <br>
+            <input type="submit" name="completeResrvation" id="completeResrvation" value="Complete Resrvation">
+        </form>
+    </body>
+</html>

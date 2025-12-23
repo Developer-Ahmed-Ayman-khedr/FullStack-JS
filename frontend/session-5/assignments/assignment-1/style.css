@@ -1,0 +1,147 @@
+/* Start Rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+ul {
+    width: fit-content;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.container {
+    display: inline-block;
+    color: white;
+    width: 950px;
+    height: 50px;
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container .img {
+    width: fit-content;
+    padding: 10px;
+}
+
+.container .img img {
+    border-radius: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+.container .contact {
+    display: block;
+    color: white;
+    border-radius: 30px;
+    width: 75px;
+    height: 25px;
+    background-color: deepskyblue;
+}
+
+/* End Rules */
+
+/* Start Nav bar 1 */
+
+.nav1 .container .img {
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+
+.nav1 .container ul {
+    margin-top: -42px;
+}
+
+
+.nav1 .container .contact {
+    margin-left: auto;
+    margin-top: -20px;
+}
+
+/* End Nav bar 1 */
+
+/* Start Nav bar 2 */
+
+.nav2 .container .links {
+    width: fit-content;
+    margin-top: -25px;
+}
+
+.nav2 .container ul {
+    display: inline-block;
+}
+
+.nav2 .container ul li {
+    display: inline-block;
+    margin-top: 42px;
+}
+
+.nav2 .container .contact {
+    display: inline;
+    margin-left: 10px;
+}
+
+.nav2 .container .img {
+    width: fit-content;
+    margin-top: -44px;
+    margin-left: auto;
+}
+
+/* End Nav bar 2 */
+
+/* Start Nav bar 3 */
+
+.nav3 .container .img {
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+.nav3 .container .links {
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -45px;
+}
+
+.nav3 .container ul {
+    display: inline-block;
+}
+
+.nav3 .container ul li {
+    display: inline-block;
+}
+
+.nav3 .container .contact {
+    display: inline;
+    margin-left: 10px;
+}
+
+/* End Nav bar 2 */

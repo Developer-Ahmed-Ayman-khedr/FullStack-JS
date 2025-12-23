@@ -1,0 +1,48 @@
+.page {
+    background-color: white;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    width: 20%;
+}
+
+.box {
+    width: 250px;
+    height: 150;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#lightGreen {
+    background-color: rgb(159, 198, 96);
+}
+
+#lightBlue {
+    background-color: rgb(39, 174, 143);
+}
+
+#deepBlue {
+    background-color: rgb(25, 72, 174);
+}
+
+#deepRed {
+    background-color: rgb(159, 19, 61);
+}
+
+p {
+    text-align: center;
+}
+
+.banner {
+    background-color: white;
+}
