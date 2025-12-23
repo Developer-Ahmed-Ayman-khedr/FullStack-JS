@@ -1,0 +1,70 @@
+start rules
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* end rules */
+/* start parent 1 */
+/* .parent {
+    background-color: rgba(0, 0, 0, 1);
+    height: 50vh;
+    width: 50vw;
+}
+
+.child {
+    background-color: red;
+    color: rgba(0, 255, 0, 1);
+    height: 50%;
+    width: 50%;
+} */
+
+/* end parent 1 */
+
+/* start parent 2 */
+/* body {
+
+    background-image: url(./3621145b87af3c2954f5157adf2ffc28.jpeg);
+    background-repeat: none;
+    background-size: contain;
+    background-attachment: fixed;
+
+    height: 5000px;
+} */
+
+/* .parent2 {
+    height: 50vh;
+    width: 50vw;
+}
+
+.child2 {
+    background-color: hsla(150deg, 100%, 50%, 1);
+    color: hsla(50deg, 100%, 50%, 1);
+    height: 50%;
+    width: 50%;
+} */
+
+/* end parent 2 */
+
+
+
+@font-face {
+    font-family: myFont;
+    src: url(sansation_bold.woff);
+    font-weight: bold;
+}
+
+p {
+    font-family: myFont;
+    font-style: oblique;
+}
+
+ul {
+    list-style: disc inside url("./Union.png");
+    font-family: myFont;
+}
+
+ul li {
+    font-family: myFont;
+}

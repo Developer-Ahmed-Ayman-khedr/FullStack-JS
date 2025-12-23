@@ -1,0 +1,92 @@
+/* Start Global Rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+    width: 950px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+/* End Global Rules */
+
+/* Start Nav bar */
+nav {
+    background-color: rgb(30, 99, 156);
+    padding: 20px;
+    padding-right: 30px;
+
+
+}
+
+nav .container {
+    /* display: block; */
+
+    color: black;
+    /* height: 50px; */
+    /* padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px; */
+}
+
+div p {
+    display: inline-block;
+}
+
+div ul {
+    /* display: inline-block; */
+    /* background-color: lightgreen; */
+    list-style: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-top: -17px;
+}
+
+div ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+div ul a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+/* End Nav bar */
+
+/* Start Content */
+.home {
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+.home .img {
+    display: block;
+    width: fit-content;
+    margin-top: -120px;
+    margin-left: auto;
+    margin-right: 120px;
+}
+
+.home .img img {
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.home .dialog {
+    display: inline-block;
+    width: 400px;
+    background-color: white;
+}
+
+/* End Content */

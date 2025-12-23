@@ -1,0 +1,183 @@
+/* Start Rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+/* End Rules */
+
+/* Start Nav bar */
+nav {
+    background-color: white;
+    padding: 0% 1.5%;
+    box-shadow: 0px 6px 4px 0px rgba(199, 196, 196, 0.75);
+}
+
+nav .container {
+    /* background-color: black; */
+    height: 60px;
+}
+
+nav .container .img {
+    display: inline-block;
+    width: fit-content;
+    /* background-color: aqua; */
+    padding-top: 10px;
+}
+
+nav .container .img img {
+    width: 50px;
+}
+
+nav .container .leftSide {
+    /* background-color: green; */
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+    /* margin-top: -10px; */
+}
+
+nav .container .leftSide .navLinks {
+    /* background-color: bisque; */
+    display: block;
+    width: fit-content;
+    /* height: 50px; */
+    margin-top: -40px;
+    margin-left: 50px;
+}
+
+nav .container .leftSide .navLinks ul {
+    /* display: inline-block; */
+    list-style: none;
+    text-decoration: none;
+    width: fit-content;
+    /* margin-top: -50px; */
+}
+
+nav .container .leftSide .navLinks ul li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav .container .leftSide .navLinks ul li a {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 10px;
+    color: rgb(20, 13, 13);
+}
+
+nav .container .rightSide {
+    /* display: block; */
+    width: fit-content;
+    margin-left: auto;
+    /* height: 40px; */
+    margin-top: -30px;
+}
+
+nav .container .rightSide ul {
+    list-style: none;
+}
+
+nav .container .rightSide ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav .container .rightSide ul .login {
+    display: inline-block;
+    height: 40px;
+    background-color: white;
+    width: fit-content;
+    color: blue;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: none;
+}
+
+nav .container .rightSide ul .signup {
+    display: inline-block;
+    height: 40px;
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+/* End Nav bar */
+
+/* Start section */
+
+.home {
+    /* background-color: beige; */
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.home p {
+    text-align: center;
+    font-size: 100px;
+}
+
+.home .text .paragraph1 {
+    color: black;
+}
+
+.home .text .paragraph2 {
+    color: blue;
+}
+
+.home .nextButtons {
+    /* background-color: blueviolet; */
+    margin: 100px;
+    text-align: center;
+
+}
+
+.home .nextButtons ul {
+    list-style: none;
+}
+
+.home .nextButtons ul li {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+.home .nextButtons ul .getStarted {
+    display: inline-block;
+    height: 50px;
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.home .nextButtons ul .learnMore {
+    display: inline-block;
+    height: 50px;
+    background-color: white;
+    width: fit-content;
+    color: blue;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-style: none;
+}
+
+/* End section */

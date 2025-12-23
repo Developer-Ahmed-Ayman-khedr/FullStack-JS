@@ -1,0 +1,364 @@
+/* start rules */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF8ED;
+    padding: 0 100px 0 100px;
+}
+
+img {
+    display: inline-block;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+/* end rule */
+
+/* start header */
+
+.container {
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 0 10px; */
+    margin-top: 33px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .companyName a {
+    color: #2E476B;
+}
+
+.navigation ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation ul li a {
+    /* background-color: aqua; */
+    color: white;
+    text-decoration: none;
+    color: #2E476B;
+
+}
+
+.bookNow {
+    border: none;
+    background-color: transparent;
+
+}
+
+
+.button img {
+    width: 170px;
+    height: 54px;
+    border: none;
+    background-color: none;
+}
+
+
+/* start header content */
+
+header .headerContent {
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+header .headerContent .text {
+    display: flex;
+    width: 577px;
+    height: 460px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header .headerContent .text h1 {
+    font-size: 84px;
+}
+
+header .headerContent .text p {
+    font-size: 18px;
+}
+
+header .headerContent .searchBox {
+    display: flex;
+    width: 500px;
+    height: 76px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 38px;
+}
+
+header .headerContent .text .searchBox .where {
+    background-color: none;
+    width: 147px;
+    height: 48px;
+}
+
+header .headerContent .text .searchBox .date {
+    width: 136px;
+    height: 38px;
+}
+
+header .headerContent .text .searchBox .img {
+    width: fit-content;
+    height: fit-content;
+    /* background-color: black; */
+    /* align-self: flex-end; */
+}
+
+header .headerContent .searchBox .img img {
+    width: 54px;
+    height: 54px;
+}
+
+header .headerContent .img {
+    width: 533.75px;
+    height: 555px;
+}
+
+/* end header content */
+
+/* end header */
+
+/* start categories */
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20vh;
+}
+
+/* start categories head*/
+
+.categories .categoriesHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.categories .categoriesHead .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.categories .categoriesHead .text h2 {
+    font-size: 56px;
+}
+
+.categories .categoriesHead .text p {
+    font-size: 16px;
+}
+
+.categories .categoriesHead .categoriesButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.categories .categoriesHead .categoriesButton img {
+    width: 54px;
+    height: 54px;
+}
+
+/* end categories head*/
+
+/* start categories content*/
+
+.categories .categoriesContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.categories .categoriesContent h3 {
+    text-align: center;
+}
+
+/* end categories content*/
+
+/* end categories */
+
+/* start our experiences */
+
+.ourExperiences {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* start right side */
+.ourExperiences .rightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: flex-start;
+}
+
+.ourExperiences .rightSide .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.ourExperiences .rightSide .text .top {
+    font-size: 20px;
+    color: #F66F4D;
+}
+
+.ourExperiences .rightSide .text h2 {
+    font-size: 56px;
+}
+
+.ourExperiences .rightSide .text .bottom {
+    font-size: 16px;
+}
+
+.ourExperiences .rightSide .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.ourExperiences .rightSide .cards .card {
+    background-color: #FDFDFA;
+    border-radius: 14px;
+    text-align: center;
+}
+
+.ourExperiences .rightSide .cards .card h4 {
+    color: #F66F4D;
+    font-size: 46px;
+}
+
+.ourExperiences .rightSide .cards .card p {
+    font-size: 21px;
+}
+
+/* end right side */
+
+/* end our experiences */
+
+/* start popular destinations */
+
+.popularDestinations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 100px;
+    /* background-color: burlywood; */
+    /* padding: 0 0 0 71px; */
+}
+
+/* start header */
+
+.popularDestinations .destinationHead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.popularDestinations .destinationHead .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.popularDestinations .destinationHead .text h2 {
+    font-size: 56px;
+}
+
+.popularDestinations .destinationHead .destinationbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.popularDestinations .destinationHead .destinationbuttons img {
+    width: 54px;
+    height: 54px;
+}
+
+/* end header */
+
+/* start content */
+
+.popularDestinations .content {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.popularDestinations .content .card {
+    padding: 10px;
+    border: 10px;
+    border-radius: 16px;
+}
+
+.popularDestinations .content .card a {
+    background-color: #FAF8ED;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.popularDestinations .content .card a .price {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.popularDestinations .content .card a .price .bookNow {
+    width: 100px;
+    height: 37px;
+    align-self: flex-end;
+}
+
+/* end content */
+
+/* end popular destinations */

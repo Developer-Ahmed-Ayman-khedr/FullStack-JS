@@ -1,0 +1,44 @@
+/* start rules */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+
+}
+
+/* end rules */
+
+/* .parent {
+    background-color: red;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    color: white;
+    width: 200px;
+    height: 200px;
+} */
+
+
